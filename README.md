@@ -12,7 +12,7 @@
 2. After download you can set default parameters for the board in channel settings. (These settings are easily found in the Maestro Control Center)
 - board must be in dual port mode for use.
 
-NOTE: (These notes can also be found in the comments above each function.)
+**NOTE: (These notes can also be found in the comments above each function.)**
 - full range of pulses for position are from 64-2567, where 2567 correspond to a value of 0x07 or 1 byte. 
 - read/write data sent/received as 2 bytes of type unsigned short
 - command bytes have MSB set (128-255 or 0x80)
