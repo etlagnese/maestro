@@ -25,7 +25,7 @@ int maestro::config(){
 	printf("Configuring Maestro...\n");
 	char* const argv[]= {"./Config/UscCmd", "--configure", "Config/maestro.conf",NULL};
 	if(execv("./Config/UscCmd",argv) == -1){
-		printf("failed to configure\n");
+		perror("failed to configure");
 		return -1;
 	}
 	return 0;
